@@ -1,0 +1,57 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+.header {
+    height: 100vh;
+    background: linear-gradient(135deg, #0d6efd, #000);
+    color: white;
+}
+
+/* IMAGEM */
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 0;
+}
+
+/* CARDS */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* NAVBAR */
+.navbar {
+    transition: 0.3s;
+}
+
+/* ANIMAÇÃO */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-in-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
